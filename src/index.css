@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "vazir";
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.setup{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(42, 42, 42);
+}
+.setup-container{
+  width: 300px;
+  height: 400px;
+  background-color: goldenrod;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.item{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+}
+.item input{
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+}
+.item select{
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+.submit-btn{
+  padding: 3px 50px;
+  border: none;
+  background-color: teal;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.submit-btn.not-allowed{
+  pointer-events: none;
+}
+.box{
+  width: 200px;
+  height: auto;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+}
+.box span{
+  width: 100%;
+  background-color: goldenrod;
+  color: white;
+  text-align: center;
+}
+.box span:hover{
+  background-color: gold;
+  cursor: pointer;
+}
+.modal{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.366);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+.show-score{
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.show-score button{
+  padding: 5px 50px;
+  background-color: chocolate;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.show-score button:hover{
+  background-color: rgb(181, 79, 7);
+}
